@@ -1,0 +1,7 @@
+{
+  "name": "Fridgy",
+  "description": "Cook Smart, Eat Better. A smart fridge application powered by Gemini to manage inventory, minimize waste, and generate recipes.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
