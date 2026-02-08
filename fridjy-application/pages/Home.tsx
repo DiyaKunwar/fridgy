@@ -44,7 +44,7 @@ export const Home: React.FC = () => {
         <section className="space-y-4">
           <div className="flex items-center gap-2 text-stone-700 font-semibold">
             <Sparkles className="text-orange-400" size={20} />
-            <h2>Chef's Insights</h2>
+            <h2>Fridjy's Insights</h2>
           </div>
 
           <div className="grid gap-3">
