@@ -150,3 +150,8 @@ Feel free to fork, modify, and improve Fridjy! Some areas for enhancement:
 ### Prerequisites
 - **Node.js** (v16 or higher)
 - **Google Gemini API Key** (get one [here](https://ai.google.dev/))
+
+## Demo Video
+
+### Link:
+https://youtu.be/vZ7tYRQ80Ec
