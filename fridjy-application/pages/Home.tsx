@@ -31,10 +31,10 @@ export const Home: React.FC = () => {
 
   return (
     <div className="pb-24 pt-8 px-4 max-w-lg mx-auto space-y-8">
-      
+
       <header>
         <h1 className="text-4xl font-extrabold bg-gradient-to-r from-orange-400 via-rose-400 to-amber-400 bg-clip-text text-transparent tracking-tight">
-          Fridgy
+          Fridjy
         </h1>
         <p className="text-stone-500 font-medium">Cook Smart, Eat Better.</p>
       </header>
@@ -46,19 +46,19 @@ export const Home: React.FC = () => {
             <Sparkles className="text-orange-400" size={20} />
             <h2>Chef's Insights</h2>
           </div>
-          
+
           <div className="grid gap-3">
             {insightsLoading ? (
-               <div className="p-4 rounded-xl bg-white border border-stone-200 shadow-sm animate-pulse h-24"></div>
+              <div className="p-4 rounded-xl bg-white border border-stone-200 shadow-sm animate-pulse h-24"></div>
             ) : insights.length > 0 ? (
               insights.map((insight, idx) => (
-                <div 
+                <div
                   key={idx}
                   className={clsx(
                     "p-4 rounded-xl border text-sm shadow-sm",
                     insight.type === 'waste' ? "bg-rose-50 border-rose-100 text-rose-800" :
-                    insight.type === 'suggestion' ? "bg-lime-50 border-lime-100 text-lime-800" :
-                    "bg-sky-50 border-sky-100 text-sky-800"
+                      insight.type === 'suggestion' ? "bg-lime-50 border-lime-100 text-lime-800" :
+                        "bg-sky-50 border-sky-100 text-sky-800"
                   )}
                 >
                   <strong className="block mb-1 uppercase text-xs tracking-wider opacity-70">{insight.type}</strong>
